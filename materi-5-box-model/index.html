@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>materi 5</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CSS3 Box model & position</h1>
+      <h2>bagian 1 : box model</h2>
+      <!-- grid area A-->
+      <div class="grid">
+        <div class="card">
+          <div class="area" id="box-A">
+            <h3>box A</h3>
+            <p>original content</p>
+          </div>
+        </div>
+        <!-- end grid area A -->
+        <!-- grid area B-->
+        <div class="card">
+          <div class="area" id="box-B">
+            <h3>box B</h3>
+            <p>original content</p>
+          </div>
+        </div>
+        <!-- end grid aresa  B -->
+        <!-- end grid aresa  c -->
+        <div class="card">
+          <div class="area" id="box-C">
+            <h3>box C</h3>
+            <p>konten + padding + border</p>
+          </div>
+        </div>
+        <!-- end grid aresa  D -->
+        <div class="card">
+          <div class="area" id="box-D">
+            <h3>box D</h3>
+            <p>konten + padding + border + margin</p>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <hr />
+      <br />
+      <h2>bagian 2 : box position</h2>
+      <!-- grid area 2 -->
+      <div class="grid">
+        <!-- card statik -->
+        <div class="card">
+          <div class="area" id="box-statik">
+            <h3>box statik</h3>
+            <p>default</p>
+          </div>
+        </div>
+        <!-- card statik end -->
+        <!-- card relative -->
+        <div class="card">
+          <div class="area" id="box-relative">
+            <h3>box relative</h3>
+            <p>default</p>
+          </div>
+        </div>
+        <!-- card relative end -->
+        <!-- card absolute -->
+        <div class="card" style="position: relative">
+          <div class="area" id="box-absolute">
+            <h3>box absolute</h3>
+            <p>bebas di geser di area ber-induk relative</p>
+          </div>
+        </div>
+        <!-- card absolute end -->
+        <!-- card fixed -->
+        <div class="card">
+          <div class="area" id="box-fixed">
+            <h3>box fixed</h3>
+            <p>bebas di geser semua halaman dan fix atau tetap di opsisinya</p>
+          </div>
+        </div>
+        <!-- card fixed end -->
+      </div>
+
+      <hr />
+    </div>
+  </body>
+  <br /><br /><br /><br /><br />
+</html>
