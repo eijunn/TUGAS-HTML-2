@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+  font-family: 'bismillah';
+  src: url(fonts/Bismillah\ Script.ttf);
+  font-size: 1px;
+}
+@font-face {
+  font-family: 'keren';
+  src: url(fonts/Signatra.otf);
+  font-size: 1px;
+}
+@font-face {
+  font-family: 'tambahkeren';
+  src: url(fonts/go3v2.ttf);
+  font-size: 1px;
+}
+body {
+  background: linear-gradient(180deg, #ffccf2 0%, #977dff 50%, #0033ff 100%);
+}
+main {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.container {
+  text-align: center;
+  background-color: rgb(206, 233, 224);
+  border-radius: 10px;
+  font-family: 'tambahkeren';
+  color: #7211f1;
+  text-shadow: 3px 3px 0 #f5f1f1;
+
+  font-optical-sizing: auto;
+  margin: 3cm;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 30px;
+}
+.article {
+  background-color: rgb(242, 231, 231);
+  border-radius: 10px;
+  padding: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 3cm;
+  margin-top: -3cm;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+.quotes {
+  background-color: pink;
+  border-radius: 10px;
+
+  padding: 4px;
+  margin: 3cm;
+  margin-top: -2cm;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: 'keren';
+  font-size: 35px;
+}
+footer,
+.footer {
+  background: white;
+  color: #918f8f;
+  padding: 15px;
+  text-align: center;
+  margin: 3cm;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgb(135, 133, 133);
+  padding: 20px;
+  border-radius: 15px;
+  background: transparent;
+  border: none;
+}
+.penulis {
+  background-color: white;
+  text-align: right;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  background: transparent; /* nggak ada warna */
+  border: none;
+}
+.span {
+  font-family: 'bismillah';
+  padding: auto;
+  font-size: 100px;
+  margin-left: 1rem;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+.note {
+  background-color: rgb(240, 225, 225);
+  color: red;
+  margin: 3cm;
+  margin-top: -2cm;
+  padding: 1rem;
+  border-radius: 20pc;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  border-left: 5px solid #9029e4; /* warna garis */
+}
+.kutip2 {
+  font-size: 50px;
+}
+.nikol {
+  color: #c7c5c5;
+}
